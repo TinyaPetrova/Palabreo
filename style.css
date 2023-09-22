@@ -2,7 +2,9 @@ body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    background-color: bisque;
+    background: #d9a7c7;
+    background: -webkit-linear-gradient(to right, #e0dba2, #d9a7c7); 
+    background: linear-gradient(to right, #ece59c, #d9a7c7);
 }
 
 h1 {
@@ -22,7 +24,9 @@ a {
     align-items: center;
     padding: 10px;
     height: 15vh;
-    background-color: chocolate;
+    background: #6f4bb1;
+    background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #6f4bb1);background: linear-gradient(to right, #FFAF7B, #D76D77, #6f4bb1);
+
 }
 
 .header h1 {
@@ -125,7 +129,9 @@ a {
 
 .footer {
     height: 10vh;
-    background-color: dimgrey;
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
 }
 
 .cardsImage {
