@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background: #d9a7c7;
+    background: -webkit-linear-gradient(to right, #e0dba2, #d9a7c7); 
+    background: linear-gradient(to right, #ece59c, #d9a7c7);
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    margin-right: 15px;
+    margin-left: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    color: brown;
+    max-width: 250px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+
+nav a {
+    margin: 0;
+    text-decoration: none;
+    color: brown;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c5725c;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px;
+    height: 15vh;
+    background: #6f4bb1;
+    background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #6f4bb1);background: linear-gradient(to right, #FFAF7B, #D76D77, #6f4bb1);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    min-height: 80vh;
+    background-color: burlywood
+}
+
+.footer {
+    height: 10vh;
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+}
